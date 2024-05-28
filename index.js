@@ -165,7 +165,6 @@ const transactions = JSON.parse(rawTransactions);
 const analyzer = new TransactionAnalyzer(transactions);
 
 console.log(analyzer.getAllTransactions());
-console.log(analyzer.getUniqueTransactionType());
 console.log(analyzer.calculateTotalAmount());
 console.log(analyzer.calculateTotalAmountByDate(2024));
 console.log(analyzer.getTransactionByType('debit'));
