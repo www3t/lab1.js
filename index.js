@@ -173,6 +173,5 @@ console.log(analyzer.getTransactionsByMerchant('SuperMart'));
 console.log(analyzer.calculateAverageTransactionAmount());
 console.log(analyzer.getTransactionsByAmountRange(50, 150));
 console.log(analyzer.calculateTotalDebitAmount());
-console.log(analyzer.findMostTransactionsMonth());
 console.log(analyzer.findMostDebitTransactionMonth());
 console.log(analyzer.mostTransactionTypes());
